@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups> 
+<run>
+<include name = "Smoke"/> 
+<!-- This class "fillFormValidation" the only one will run-->
+</run>
+</groups>
+<listeners>
+<listener class-name="test.Utils.Listeners"/>
+</listeners>
+	<test thread-count="1" name="End to end framework">
+		<classes>
+			<class name="MobileAutomation.eCommerce_Case_1" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Error validation Test">
+		<classes>
+			<class name="MobileAutomation.fillFormValidation" />
+		</classes>
+	</test>
+	<test thread-count="1" name="validat ePurchase Steps">
+		<classes>
+			<class name="MobileAutomation.validatePurchaseSteps" />
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->

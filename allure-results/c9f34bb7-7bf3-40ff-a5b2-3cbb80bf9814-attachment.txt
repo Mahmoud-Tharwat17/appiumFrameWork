@@ -1,0 +1,526 @@
+[INFO ] 2023-11-13 11:58:09.546 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-11-13 11:58:10.518 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-11-13 11:58:10.519 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-11-13 11:58:10.685 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-11-13 11:58:10.888 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-11-13 11:58:10.896 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-11-13 11:58:10.999 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-11-13 11:58:11.022 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-11-13 11:58:11.028 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-11-13 11:58:11.078 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                      'MobileAutomation.appiumBasics.setUp'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-11-13 11:58:16.234 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Welcome to Appium v2.1.3
+[INFO ] 2023-11-13 11:58:16.236 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Non-default server args:
+[INFO ] 2023-11-13 11:58:16.237 [Exec Stream Pumper] ReportManager - [35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[INFO ] 2023-11-13 11:58:16.238 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Attempting to load driver uiautomator2...
+[INFO ] 2023-11-13 11:58:16.239 [Exec Stream Pumper] ReportManager - [debug] [35m[Appium][39m Requiring driver at C:\Users\Statsbomb\node_modules\appium-uiautomator2-driver
+[INFO ] 2023-11-13 11:58:17.057 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO ] 2023-11-13 11:58:17.057 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Available drivers:
+[INFO ] 2023-11-13 11:58:17.058 [Exec Stream Pumper] ReportManager - [35m[Appium][39m   - uiautomator2@2.29.8 (automationName 'UiAutomator2')
+[INFO ] 2023-11-13 11:58:17.058 [Exec Stream Pumper] ReportManager - [35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[INFO ] 2023-11-13 11:58:17.137 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m
+[INFO ] 2023-11-13 11:58:17.137 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{}[39m
+[INFO ] 2023-11-13 11:58:17.138 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Calling AppiumDriver.getStatus() with args: []
+[INFO ] 2023-11-13 11:58:17.139 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.1.3"}}
+[INFO ] 2023-11-13 11:58:17.143 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- GET /status [39m[32m200[39m [90m5 ms - 110[39m
+[INFO ] 2023-11-13 11:58:17.143 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[INFO ] 2023-11-13 11:58:17.146 [main] ReportManager - Your message or text here 6
+[DEBUG] 2023-11-13 11:58:17.205 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2023-11-13 11:58:17.220 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-11-13 11:58:17.221 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-11-13 11:58:17.224 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3134153d
+[DEBUG] 2023-11-13 11:58:17.237 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-11-13 11:58:17.237 [main] PlatformDependent0 - Java version: 17
+[DEBUG] 2023-11-13 11:58:17.237 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-11-13 11:58:17.238 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-11-13 11:58:17.238 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-11-13 11:58:17.238 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-11-13 11:58:17.239 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-11-13 11:58:17.239 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-11-13 11:58:17.240 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3551a94
+[DEBUG] 2023-11-13 11:58:17.241 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[DEBUG] 2023-11-13 11:58:17.241 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-11-13 11:58:17.241 [main] PlatformDependent - maxDirectMemory: 4261412864 bytes (maybe)
+[DEBUG] 2023-11-13 11:58:17.241 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\STATSB~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-11-13 11:58:17.241 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-11-13 11:58:17.242 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-11-13 11:58:17.242 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-11-13 11:58:17.243 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-11-13 11:58:17.243 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-11-13 11:58:17.243 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-11-13 11:58:17.249 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-11-13 11:58:17.261 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-11-13 11:58:17.262 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-11-13 11:58:17.388 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-11-13 11:58:17.388 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-11-13 11:58:17.397 [main] GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-11-13 11:58:17.406 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-11-13 11:58:17.413 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-11-13 11:58:17.413 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-11-13 11:58:17.454 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-11-13 11:58:17.462 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-11-13 11:58:17.462 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-11-13 11:58:17.462 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-11-13 11:58:17.591 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 4972 (auto-detected)
+[DEBUG] 2023-11-13 11:58:17.596 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-11-13 11:58:17.597 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-11-13 11:58:17.608 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-11-13 11:58:17.609 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-11-13 11:58:17.630 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2023-11-13 11:58:17.660 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-11-13 11:58:17.661 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-11-13 11:58:17.661 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41c68b0f
+[DEBUG] 2023-11-13 11:58:17.672 [AsyncHttpClient-1-2] NettyConnectListener - Using new Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'POST' to '/session'
+[DEBUG] 2023-11-13 11:58:17.682 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-11-13 11:58:17.682 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-11-13 11:58:17.682 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-11-13 11:58:17.682 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-11-13 11:58:17.682 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[INFO ] 2023-11-13 11:58:17.693 [Exec Stream Pumper] ReportManager - [debug] [38;5;0m[HTTP][0m Request idempotency key: 7c61301d-97e2-44f8-b419-4b19f7185877
+[INFO ] 2023-11-13 11:58:17.704 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[INFO ] 2023-11-13 11:58:17.704 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","platformName":"ANDROID"}}}[39m
+[INFO ] 2023-11-13 11:58:17.704 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","platformName":"ANDROID"}}]
+[INFO ] 2023-11-13 11:58:17.705 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Event 'newSessionRequested' logged at 1699869497705 (11:58:17 GMT+0200 (Eastern European Standard Time))
+[INFO ] 2023-11-13 11:58:17.708 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO ] 2023-11-13 11:58:17.708 [Exec Stream Pumper] ReportManager - [35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[INFO ] 2023-11-13 11:58:17.708 [Exec Stream Pumper] ReportManager - [35m[Appium][39m Will require it at C:\Users\Statsbomb\node_modules\appium-uiautomator2-driver
+[INFO ] 2023-11-13 11:58:17.708 [Exec Stream Pumper] ReportManager - [debug] [35m[Appium][39m Requiring driver at C:\Users\Statsbomb\node_modules\appium-uiautomator2-driver
+[INFO ] 2023-11-13 11:58:17.708 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m Appium v2.1.3 creating new AndroidUiautomator2Driver (v2.29.8) session
+[INFO ] 2023-11-13 11:58:17.709 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO ] 2023-11-13 11:58:17.709 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m Appium's BaseDriver version is 9.3.20
+[INFO ] 2023-11-13 11:58:17.709 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.20
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m Creating session with W3C capabilities: {
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m   "alwaysMatch": {
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "platformName": "ANDROID",
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "appium:app": "C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk",
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "appium:appPackage": "com.swaglabsmobileapp",
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "appium:automationName": "UiAutomator2",
+[INFO ] 2023-11-13 11:58:17.712 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     "appium:deviceName": "emulator-5554"
+[INFO ] 2023-11-13 11:58:17.713 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m   },
+[INFO ] 2023-11-13 11:58:17.713 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m   "firstMatch": [
+[INFO ] 2023-11-13 11:58:17.713 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m     {}
+[INFO ] 2023-11-13 11:58:17.713 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m   ]
+[INFO ] 2023-11-13 11:58:17.713 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265][0m }
+[INFO ] 2023-11-13 11:58:17.720 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265][0m The following capabilities were provided, but are not recognized by Appium:
+[INFO ] 2023-11-13 11:58:17.720 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265][0m   deviceName
+[INFO ] 2023-11-13 11:58:17.720 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Session created with session id: d13f3ec5-bf08-475b-ab28-6fd489630c4e
+[INFO ] 2023-11-13 11:58:17.722 [Exec Stream Pumper] ReportManager - [38;5;48m[BaseDriver][0m Using local app 'C:\Users\Statsbomb\eclipse-workspace\Appium_project\Appium/apps/SwagLab.apk'
+[INFO ] 2023-11-13 11:58:17.776 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Checking whether app is actually present
+[INFO ] 2023-11-13 11:58:17.785 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Found 2 'build-tools' folders under 'C:\Users\Statsbomb\AppData\Local\Android\Sdk' (newest first):
+[INFO ] 2023-11-13 11:58:17.785 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m     C:\Users\Statsbomb\AppData\Local\Android\Sdk\build-tools\34.0.0
+[INFO ] 2023-11-13 11:58:17.785 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m     C:\Users\Statsbomb\AppData\Local\Android\Sdk\build-tools\33.0.1
+[INFO ] 2023-11-13 11:58:17.785 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO ] 2023-11-13 11:58:17.786 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[INFO ] 2023-11-13 11:58:17.803 [Exec Stream Pumper] ReportManager - [38;5;80m[AndroidDriver][0m Retrieving device list
+[INFO ] 2023-11-13 11:58:17.803 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Trying to find connected Android devices
+[INFO ] 2023-11-13 11:58:17.804 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting connected devices
+[INFO ] 2023-11-13 11:58:17.819 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[INFO ] 2023-11-13 11:58:17.819 [Exec Stream Pumper] ReportManager - [38;5;80m[AndroidDriver][0m Using device: emulator-5554
+[INFO ] 2023-11-13 11:58:17.820 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO ] 2023-11-13 11:58:17.820 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[INFO ] 2023-11-13 11:58:17.834 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Setting device id to emulator-5554
+[INFO ] 2023-11-13 11:58:17.834 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[INFO ] 2023-11-13 11:58:17.859 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 34
+[INFO ] 2023-11-13 11:58:17.859 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Getting device platform version
+[INFO ] 2023-11-13 11:58:17.859 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[INFO ] 2023-11-13 11:58:17.884 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 14
+[INFO ] 2023-11-13 11:58:17.884 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Device API level: 34
+[INFO ] 2023-11-13 11:58:17.884 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Relaxing hidden api policy
+[INFO ] 2023-11-13 11:58:17.884 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[INFO ] 2023-11-13 11:58:17.945 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[INFO ] 2023-11-13 11:58:17.961 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[INFO ] 2023-11-13 11:58:17.983 [Exec Stream Pumper] ReportManager - [debug] [38;5;80m[AndroidDriver][0m Pushing settings apk to device...
+[INFO ] 2023-11-13 11:58:17.983 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[INFO ] 2023-11-13 11:58:17.983 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[INFO ] 2023-11-13 11:58:18.141 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.1.2' >= '5.1.2')
+[INFO ] 2023-11-13 11:58:18.142 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m There is no need to install/upgrade 'C:\Users\Statsbomb\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[INFO ] 2023-11-13 11:58:18.142 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[INFO ] 2023-11-13 11:58:18.142 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[INFO ] 2023-11-13 11:58:18.184 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[INFO ] 2023-11-13 11:58:18.228 [Exec Stream Pumper] ReportManager - [debug] [38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[INFO ] 2023-11-13 11:58:18.228 [Exec Stream Pumper] ReportManager - [debug] [38;5;96m[Logcat][0m Starting logs capture with command: C:\\Users\\Statsbomb\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[INFO ] 2023-11-13 11:58:18.266 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[INFO ] 2023-11-13 11:58:18.268 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Forwarding system: 8200 to device: 6790
+[INFO ] 2023-11-13 11:58:18.268 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[INFO ] 2023-11-13 11:58:18.291 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Checking app cert for C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk
+[INFO ] 2023-11-13 11:58:18.292 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Checking app cert for C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[INFO ] 2023-11-13 11:58:18.300 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[INFO ] 2023-11-13 11:58:18.301 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Statsbomb\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Statsbomb\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[INFO ] 2023-11-13 11:58:18.363 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Statsbomb\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Statsbomb\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.5.apk
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m 
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[INFO ] 2023-11-13 11:58:18.592 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m 'C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[INFO ] 2023-11-13 11:58:18.593 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[INFO ] 2023-11-13 11:58:18.593 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[INFO ] 2023-11-13 11:58:18.630 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m 
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.5.apk'
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m 'C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk' is signed with the default certificate
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[INFO ] 2023-11-13 11:58:19.096 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[INFO ] 2023-11-13 11:58:19.303 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.5' >= '5.12.5')
+[INFO ] 2023-11-13 11:58:19.303 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\Statsbomb\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.5.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\Statsbomb\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[INFO ] 2023-11-13 11:58:19.304 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Server packages are not going to be (re)installed
+[INFO ] 2023-11-13 11:58:19.305 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Waiting up to 30000ms for services to be available
+[INFO ] 2023-11-13 11:58:19.305 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[INFO ] 2023-11-13 11:58:19.340 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[INFO ] 2023-11-13 11:58:19.342 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[INFO ] 2023-11-13 11:58:19.342 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[INFO ] 2023-11-13 11:58:19.342 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[INFO ] 2023-11-13 11:58:19.387 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Checking app cert for C:\Users\Statsbomb\eclipse-workspace\Appium_project\Appium/apps/SwagLab.apk
+[INFO ] 2023-11-13 11:58:19.440 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.2.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Statsbomb\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk
+[INFO ] 2023-11-13 11:58:20.243 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: CN=wswebcreation, OU=sample-app, O=Sauce Labs, L=San Francisco, ST=California, C=CA
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: 24fd76156cde9748f50e68dbdafde6498ec4beaa41316438d06ffdde41ce7a3d
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 2a1a91b5b813edbd94986bffb8398349b9b504e0
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: ac89c8eda61ba1f13ee22bae56d13abc
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m 
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [38;5;64m[ADB][0m 'C:\Users\Statsbomb\eclipse-workspace\Appium_project\Appium/apps/SwagLab.apk' is signed with a non-default certificate
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting package info for 'com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.244 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.284 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m The version name of the installed 'com.swaglabsmobileapp' is greater or equal to the application version name ('2.7.1' >= '2.7.1')
+[INFO ] 2023-11-13 11:58:20.285 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m There is no need to install/upgrade 'C:\Users\Statsbomb\eclipse-workspace\Appium_project\Appium/apps/SwagLab.apk'
+[INFO ] 2023-11-13 11:58:20.285 [Exec Stream Pumper] ReportManager - [38;5;80m[AndroidDriver][0m Performing fast reset on 'com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.285 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Getting install status for com.swaglabsmobileapp
+[INFO ] 2023-11-13 11:58:20.285 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.317 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m 'com.swaglabsmobileapp' is installed
+[INFO ] 2023-11-13 11:58:20.317 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.357 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:20.436 [Exec Stream Pumper] ReportManager - [debug] [38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+[INFO ] 2023-11-13 11:58:20.436 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Performing shallow cleanup of automation leftovers
+[INFO ] 2023-11-13 11:58:20.447 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m No obsolete sessions have been detected (socket hang up)
+[INFO ] 2023-11-13 11:58:20.447 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[INFO ] 2023-11-13 11:58:20.521 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Starting UIAutomator2 server 5.12.5
+[INFO ] 2023-11-13 11:58:20.521 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Using UIAutomator2 server from 'C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk' and test from 'C:\Users\Statsbomb\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[INFO ] 2023-11-13 11:58:20.521 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[INFO ] 2023-11-13 11:58:20.521 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[INFO ] 2023-11-13 11:58:20.531 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/status' to command name 'getStatus'
+[INFO ] 2023-11-13 11:58:20.532 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[INFO ] 2023-11-13 11:58:20.537 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m socket hang up
+[INFO ] 2023-11-13 11:58:21.539 [Exec Stream Pumper] ReportManager - [debug] [38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[INFO ] 2023-11-13 11:58:21.539 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/status' to command name 'getStatus'
+[INFO ] 2023-11-13 11:58:21.540 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[INFO ] 2023-11-13 11:58:21.544 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m socket hang up
+[INFO ] 2023-11-13 11:58:22.546 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/status' to command name 'getStatus'
+[INFO ] 2023-11-13 11:58:22.547 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[INFO ] 2023-11-13 11:58:22.552 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m socket hang up
+[INFO ] 2023-11-13 11:58:23.556 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/status' to command name 'getStatus'
+[INFO ] 2023-11-13 11:58:23.556 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[INFO ] 2023-11-13 11:58:23.664 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[INFO ] 2023-11-13 11:58:23.665 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m The initialization of the instrumentation process took 3144ms
+[INFO ] 2023-11-13 11:58:23.665 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/session' to command name 'createSession'
+[INFO ] 2023-11-13 11:58:23.665 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[INFO ] 2023-11-13 11:58:23.716 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341"}}
+[INFO ] 2023-11-13 11:58:23.717 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Determined the downstream protocol as 'W3C'
+[INFO ] 2023-11-13 11:58:23.729 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/appium/device/info] with no body
+[INFO ] 2023-11-13 11:58:23.762 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"androidId":"3090edd4909dfc09","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabil...
+[INFO ] 2023-11-13 11:58:23.762 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[INFO ] 2023-11-13 11:58:23.805 [Exec Stream Pumper] ReportManager - [38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[INFO ] 2023-11-13 11:58:23.805 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.MainActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.MainActivity'
+[INFO ] 2023-11-13 11:58:23.806 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[INFO ] 2023-11-13 11:58:24.895 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/appium/device/pixel_ratio] with no body
+[INFO ] 2023-11-13 11:58:24.909 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":3.5}
+[INFO ] 2023-11-13 11:58:24.909 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[INFO ] 2023-11-13 11:58:24.909 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/appium/device/system_bars] with no body
+[INFO ] 2023-11-13 11:58:24.923 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"statusBar":98}}
+[INFO ] 2023-11-13 11:58:24.924 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[INFO ] 2023-11-13 11:58:24.924 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/window/current/size] with no body
+[INFO ] 2023-11-13 11:58:24.935 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"height":2796,"width":1440}}
+[INFO ] 2023-11-13 11:58:24.935 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m New AndroidUiautomator2Driver session created successfully, session d13f3ec5-bf08-475b-ab28-6fd489630c4e added to master session list
+[INFO ] 2023-11-13 11:58:24.936 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Event 'newSessionStarted' logged at 1699869504936 (11:58:24 GMT+0200 (Eastern European Standard Time))
+[INFO ] 2023-11-13 11:58:24.936 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Cached the protocol value 'W3C' for the new session d13f3ec5-bf08-475b-ab28-6fd489630c4e
+[INFO ] 2023-11-13 11:58:24.936 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"ANDROID","app":"C:\\Users\\Statsbomb\\eclipse-workspace\\Appium_project\\Appium/apps/SwagLab.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":34,"platformVersion":"14","deviceScreenSize":"1440x2880","deviceScreenDensity":560,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":98,"viewportRect":{"left":0,"top":98,"width"...
+[INFO ] 2023-11-13 11:58:24.937 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m7233 ms - 1104[39m
+[INFO ] 2023-11-13 11:58:24.938 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:24.942 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-11-13 11:58:24.943 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+X-Idempotency-Key: 7c61301d-97e2-44f8-b419-4b19f7185877
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Length: 452
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 1104
+ETag: W/"450-2eNPgkbWh7a/lLENrVfZyLzjVmU"
+Date: Mon, 13 Nov 2023 09:58:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-11-13 11:58:24.948 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[INFO ] 2023-11-13 11:58:25.049 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'MobileAutomation.appiumBasics.Click_App_button'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-11-13 11:58:25.055 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://127.0.0.1:4723 : 1
+[DEBUG] 2023-11-13 11:58:25.065 [Forwarding findElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using pooled Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'POST' to 'http://127.0.0.1:4723/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element'
+[DEBUG] 2023-11-13 11:58:25.066 [Forwarding findElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using open Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] for POST '/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element'
+[INFO ] 2023-11-13 11:58:25.069 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element[39m
+[INFO ] 2023-11-13 11:58:25.070 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"standard_user\"));"}[39m
+[INFO ] 2023-11-13 11:58:25.073 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector()).scrollIntoView(text(\"standard_user\"));","d13f3ec5-bf08-475b-ab28-6fd489630c4e"]
+[INFO ] 2023-11-13 11:58:25.074 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[INFO ] 2023-11-13 11:58:25.074 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Waiting up to 0 ms for condition
+[INFO ] 2023-11-13 11:58:25.075 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/element' to command name 'findElement'
+[INFO ] 2023-11-13 11:58:25.075 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"standard_user\"));","context":"","multiple":false}
+[INFO ] 2023-11-13 11:58:26.315 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"ELEMENT":"00000000-0000-0019-ffff-ffff00000035","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0019-ffff-ffff00000035"}}
+[INFO ] 2023-11-13 11:58:26.315 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0019-ffff-ffff00000035","ELEMENT":"00000000-0000-0019-ffff-ffff00000035"}
+[INFO ] 2023-11-13 11:58:26.316 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element [39m[32m200[39m [90m1247 ms - 137[39m
+[INFO ] 2023-11-13 11:58:26.316 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:26.316 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element HTTP/1.1
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Length: 127
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-c/dWYT2HtBcURw+Ff2AdbUgEPsg"
+Date: Mon, 13 Nov 2023 09:58:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-11-13 11:58:26.317 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[DEBUG] 2023-11-13 11:58:26.319 [Forwarding clickElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using pooled Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'POST' to 'http://127.0.0.1:4723/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff00000035/click'
+[DEBUG] 2023-11-13 11:58:26.319 [Forwarding clickElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using open Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] for POST '/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff00000035/click'
+[INFO ] 2023-11-13 11:58:26.322 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff00000035/click[39m
+[INFO ] 2023-11-13 11:58:26.322 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{"id":"00000000-0000-0019-ffff-ffff00000035"}[39m
+[INFO ] 2023-11-13 11:58:26.324 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0019-ffff-ffff00000035","d13f3ec5-bf08-475b-ab28-6fd489630c4e"]
+[INFO ] 2023-11-13 11:58:26.325 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/element/00000000-0000-0019-ffff-ffff00000035/click' to command name 'click'
+[INFO ] 2023-11-13 11:58:26.325 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [POST /element/00000000-0000-0019-ffff-ffff00000035/click] to [POST http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/element/00000000-0000-0019-ffff-ffff00000035/click] with body: {"element":"00000000-0000-0019-ffff-ffff00000035"}
+[INFO ] 2023-11-13 11:58:26.431 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":null}
+[INFO ] 2023-11-13 11:58:26.431 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Responding to client with driver.click() result: null
+[INFO ] 2023-11-13 11:58:26.432 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff00000035/click [39m[32m200[39m [90m109 ms - 14[39m
+[INFO ] 2023-11-13 11:58:26.432 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:26.432 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff00000035/click HTTP/1.1
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 13 Nov 2023 09:58:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-11-13 11:58:26.432 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[DEBUG] 2023-11-13 11:58:27.260 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://127.0.0.1:4723 : 1
+[DEBUG] 2023-11-13 11:58:27.435 [Forwarding findElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using pooled Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'POST' to 'http://127.0.0.1:4723/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element'
+[DEBUG] 2023-11-13 11:58:27.435 [Forwarding findElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using open Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] for POST '/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element'
+[INFO ] 2023-11-13 11:58:27.438 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element[39m
+[INFO ] 2023-11-13 11:58:27.438 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"test-LOGIN"}[39m
+[INFO ] 2023-11-13 11:58:27.438 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","test-LOGIN","d13f3ec5-bf08-475b-ab28-6fd489630c4e"]
+[INFO ] 2023-11-13 11:58:27.439 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[INFO ] 2023-11-13 11:58:27.439 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Waiting up to 0 ms for condition
+[INFO ] 2023-11-13 11:58:27.439 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/element' to command name 'findElement'
+[INFO ] 2023-11-13 11:58:27.439 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/element] with body: {"strategy":"accessibility id","selector":"test-LOGIN","context":"","multiple":false}
+[INFO ] 2023-11-13 11:58:27.491 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":{"ELEMENT":"00000000-0000-0019-ffff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0019-ffff-ffff0000002f"}}
+[INFO ] 2023-11-13 11:58:27.492 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0019-ffff-ffff0000002f","ELEMENT":"00000000-0000-0019-ffff-ffff0000002f"}
+[INFO ] 2023-11-13 11:58:27.493 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element [39m[32m200[39m [90m54 ms - 137[39m
+[INFO ] 2023-11-13 11:58:27.493 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:27.493 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element HTTP/1.1
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-FfuPKC074sZJ11JUtctPU3GqrwU"
+Date: Mon, 13 Nov 2023 09:58:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-11-13 11:58:27.493 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[DEBUG] 2023-11-13 11:58:27.494 [Forwarding clickElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using pooled Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'POST' to 'http://127.0.0.1:4723/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff0000002f/click'
+[DEBUG] 2023-11-13 11:58:27.494 [Forwarding clickElement on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using open Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] for POST '/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff0000002f/click'
+[INFO ] 2023-11-13 11:58:27.496 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff0000002f/click[39m
+[INFO ] 2023-11-13 11:58:27.496 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{"id":"00000000-0000-0019-ffff-ffff0000002f"}[39m
+[INFO ] 2023-11-13 11:58:27.497 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0019-ffff-ffff0000002f","d13f3ec5-bf08-475b-ab28-6fd489630c4e"]
+[INFO ] 2023-11-13 11:58:27.497 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/element/00000000-0000-0019-ffff-ffff0000002f/click' to command name 'click'
+[INFO ] 2023-11-13 11:58:27.497 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [POST /element/00000000-0000-0019-ffff-ffff0000002f/click] to [POST http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341/element/00000000-0000-0019-ffff-ffff0000002f/click] with body: {"element":"00000000-0000-0019-ffff-ffff0000002f"}
+[INFO ] 2023-11-13 11:58:27.540 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":null}
+[INFO ] 2023-11-13 11:58:27.540 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Responding to client with driver.click() result: null
+[INFO ] 2023-11-13 11:58:27.540 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff0000002f/click [39m[32m200[39m [90m45 ms - 14[39m
+[INFO ] 2023-11-13 11:58:27.541 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:27.541 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e/element/00000000-0000-0019-ffff-ffff0000002f/click HTTP/1.1
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 13 Nov 2023 09:58:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-11-13 11:58:27.541 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[DEBUG] 2023-11-13 11:58:28.361 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://127.0.0.1:4723 : 1
+[DEBUG] 2023-11-13 11:58:29.453 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://127.0.0.1:4723 : 1
+[INFO ] 2023-11-13 11:58:29.557 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Click_App_button'
+[INFO ] 2023-11-13 11:58:29.557 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'MobileAutomation.appiumBasics.Click_App_button'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-11-13 11:58:29.609 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of teardown configuration method                                               
+                                                    'MobileAutomation.appiumBasics.Teardown'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-11-13 11:58:29.611 [Forwarding quit on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using pooled Channel '[id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]' for 'DELETE' to 'http://127.0.0.1:4723/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e'
+[DEBUG] 2023-11-13 11:58:29.611 [Forwarding quit on session d13f3ec5-bf08-475b-ab28-6fd489630c4e to remote] NettyRequestSender - Using open Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] for DELETE '/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e'
+[INFO ] 2023-11-13 11:58:29.613 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/d13f3ec5-bf08-475b-ab28-6fd489630c4e[39m
+[INFO ] 2023-11-13 11:58:29.613 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m{}[39m
+[INFO ] 2023-11-13 11:58:29.613 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Calling AppiumDriver.deleteSession() with args: ["d13f3ec5-bf08-475b-ab28-6fd489630c4e"]
+[INFO ] 2023-11-13 11:58:29.613 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Event 'quitSessionRequested' logged at 1699869509613 (11:58:29 GMT+0200 (Eastern European Standard Time))
+[INFO ] 2023-11-13 11:58:29.614 [Exec Stream Pumper] ReportManager - [38;5;16m[AppiumDriver@e2bb][0m Removing session d13f3ec5-bf08-475b-ab28-6fd489630c4e from our master session list
+[INFO ] 2023-11-13 11:58:29.614 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Deleting UiAutomator2 session
+[INFO ] 2023-11-13 11:58:29.614 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Deleting UiAutomator2 server session
+[INFO ] 2023-11-13 11:58:29.615 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Matched '/' to command name 'deleteSession'
+[INFO ] 2023-11-13 11:58:29.615 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/4b9c8f7e-e25c-4445-87f6-f98afe9f9341] with no body
+[INFO ] 2023-11-13 11:58:29.625 [Exec Stream Pumper] ReportManager - [debug] [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Got response with status 200: {"sessionId":"4b9c8f7e-e25c-4445-87f6-f98afe9f9341","value":null}
+[INFO ] 2023-11-13 11:58:29.626 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[INFO ] 2023-11-13 11:58:29.630 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+[INFO ] 2023-11-13 11:58:29.788 [Exec Stream Pumper] ReportManager - [debug] [38;5;96m[Logcat][0m Stopping logcat capture
+[INFO ] 2023-11-13 11:58:29.792 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Removing forwarded port socket connection: 8200 
+[INFO ] 2023-11-13 11:58:29.792 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[INFO ] 2023-11-13 11:58:29.812 [Exec Stream Pumper] ReportManager - [38;5;32m[AndroidUiautomator2Driver@0265 (d13f3ec5)][0m Restoring hidden api policy to the device default configuration
+[INFO ] 2023-11-13 11:58:29.812 [Exec Stream Pumper] ReportManager - [debug] [38;5;64m[ADB][0m Running 'C:\Users\Statsbomb\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[INFO ] 2023-11-13 11:58:29.945 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Event 'quitSessionFinished' logged at 1699869509945 (11:58:29 GMT+0200 (Eastern European Standard Time))
+[INFO ] 2023-11-13 11:58:29.945 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Received response: null
+[INFO ] 2023-11-13 11:58:29.945 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m But deleting session, so not returning
+[INFO ] 2023-11-13 11:58:29.945 [Exec Stream Pumper] ReportManager - [debug] [38;5;16m[AppiumDriver@e2bb][0m Responding to client with driver.deleteSession() result: null
+[DEBUG] 2023-11-13 11:58:29.947 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e HTTP/1.1
+User-Agent: appium/8.6.0 (selenium/4.13.0 (java windows))
+Content-Type: application/json; charset=utf-8
+host: 127.0.0.1:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Mon, 13 Nov 2023 09:58:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[INFO ] 2023-11-13 11:58:29.947 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [37m<-- DELETE /session/d13f3ec5-bf08-475b-ab28-6fd489630c4e [39m[32m200[39m [90m334 ms - 14[39m
+[INFO ] 2023-11-13 11:58:29.947 [Exec Stream Pumper] ReportManager - [38;5;0m[HTTP][0m [90m[39m
+[DEBUG] 2023-11-13 11:58:29.947 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://127.0.0.1:4723 for channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+[DEBUG] 2023-11-13 11:58:29.950 [AsyncHttpClient-1-2] HttpHandler - Unexpected I/O exception on channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[DEBUG] 2023-11-13 11:58:29.957 [AsyncHttpClient-1-2] ChannelManager - Closing Channel [id: 0x6f47f2c3, L:/127.0.0.1:64216 - R:/127.0.0.1:4723] 
+[DEBUG] 2023-11-13 11:58:29.959 [AsyncHttpClient-1-2] HttpHandler - Channel Closed: [id: 0x6f47f2c3, L:/127.0.0.1:64216 ! R:/127.0.0.1:4723] with attribute DISCARD
+[INFO ] 2023-11-13 11:58:30.022 [main] ReportManager - PASSED: Click_App_button
+[INFO ] 2023-11-13 11:58:30.024 [main] ReportManager - ===============================================
+[INFO ] 2023-11-13 11:58:30.024 [main] ReportManager -     Default test
+[INFO ] 2023-11-13 11:58:30.024 [main] ReportManager -     Tests run: 1, Failures: 0, Skips: 0
+[INFO ] 2023-11-13 11:58:30.024 [main] ReportManager - ===============================================
+[INFO ] 2023-11-13 11:58:30.033 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-11-13 11:58:30.033 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-11-13 11:58:30.034 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-11-13 11:58:30.034 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
