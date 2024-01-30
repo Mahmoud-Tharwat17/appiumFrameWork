@@ -63,8 +63,8 @@ public class generalStore extends androidActions {
 
 	public String getToastText () {
 
-		String text =  getText(LetsShop);
-		return text;
+		String textValue =  getText(LetsShop);
+		return textValue;
 	} 
 	public String validatePageHeader (String attribute , String value) {
 

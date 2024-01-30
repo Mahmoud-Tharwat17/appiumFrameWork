@@ -16,9 +16,10 @@ public class eCommerce_Case_1 extends BaseTest{
 	public void validateTheNameIsMandatory() throws InterruptedException { 
 		Home.enterYourName("").scrollToCountry("Egypt")
 		.selectType().clickLetsShop(); 	
-		String toastMessage = Home.getToastText();
+		String toastMessage = Home.getToastText(); 
+		System.out.println(toastMessage);
 		Assert.assertEquals(toastMessage, "Please enter your name");
-	} 
+		}
 
 	@Test (description =" Given I'm on the Home page I can Start Shopping When I fill all Data in the form")
 	public void validateUserCanStartShopping() throws InterruptedException { 
