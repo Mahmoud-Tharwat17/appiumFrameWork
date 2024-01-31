@@ -18,6 +18,7 @@ public class eCommerce_Case_1 extends BaseTest{
 		.selectType().clickLetsShop(); 	
 		String toastMessage = Home.getToastText(); 
 		System.out.println(toastMessage);
+		System.out.println("to push on developer branch");
 		Assert.assertEquals(toastMessage, "Please enter your name");
 		}
 
