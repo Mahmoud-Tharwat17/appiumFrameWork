@@ -40,6 +40,7 @@ public class eCommerce_Case_1 extends BaseTest{
 		Products.addProductToCart("Converse All Star").addProductToCart("PG 3").clickOnCartButton(); 
 		Double productsCost= Cart.totalPrice(); 
 		Double  billAmount = Cart.billValueAmount(); 
+		System.out.println(billAmount);
 		Assert.assertEquals(productsCost, billAmount);
 	}
 
@@ -50,12 +51,15 @@ public class eCommerce_Case_1 extends BaseTest{
 
 		Products.addProductToCart("Converse All Star").addProductToCart("PG 3").clickOnCartButton(); 
 		Double productsCost= Cart.totalPrice(); 
-		Double  billAmount = Cart.billValueAmount(); 
+		Double  billAmount = Cart.billValueAmount();  
+		System.out.println("The output is " +billAmount);
+
 		Assert.assertEquals(productsCost, billAmount);
 
 		Cart.longPressOnTermsAndConditions().checkTermsAndCondition().Proceed();	
 		WebPAGE.searchForQuery("Zamalek 1911", "WEBVIEW").pressBack("NATIVE_APP");       
-		String pageHeader = Home.validatePageHeader("text", "General Store"); 
+		String pageHeader = Home.validatePageHeader("text", "General Store");  
+		System.out.println(pageHeader);
 		Assert.assertEquals(pageHeader, "General Store");
 	}
 
